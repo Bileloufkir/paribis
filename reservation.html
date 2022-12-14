@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>Hotel Paribis Paris 8 - Réservation</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="SHORTCUT ICON" href="image/faviconnew.png">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Sarabun" rel="stylesheet">
+	<meta name="description" content="L'hôtel Paribis trois étoiles vous propose avec ses chambres de qualité, des prestations du même niveau avec son fabuleux restaurant et ces salles de séminaire.">
+	<meta name="keywords" content="hotel paribis, paribis, hotel paribis, restaurant paribis, séminaire paribis,restaurant paris,séminaire paris,hotel avenue montaigne, ifocop">
+	<meta name="author" content="Bilel Oufkir">
+
+
+
+
+
+
+
+
+</head>
+<body>
+	
+
+		<header>
+		<div class="lang">
+			<a href="#">FR</a> | <a href="#">EN</a>
+	
+			<div class="phone"><i class="fas fa-phone-square"></i> 01 25 27 30 00</div>
+			<div class="panier">
+			<a href="panier.html"><i class="fas fa-cart-arrow-down"></i></a>
+		
+	</div>
+	</div>
+		<div class="logo" id="haut">
+			<a href="accueil.html"><img src="image/newlogo.jpg" alt="Hôtel Paribis logo"></a>
+		</div>
+		
+		<div class="recherche">
+			<form action="/search" id="searchthis" method="get">
+				<input id="search" name="q" type="text" placeholder="Rechercher sur le site" />
+				<input id="search-btn" type="submit" value="Rechercher" /> 
+			</form>
+		</div>
+		
+
+	</header>
+	
+	
+
+		<nav class="mainMenu">
+		
+		<label for="toggleMenu" class="menuTitle"></label>
+				<!-- <label for="toggleMenu" class="menuTitle">MENU</label> -->
+			<ul style="transition: none 0s ease 0s ; display: block; max-height: 800px;" class="menu">
+				<li class="show"><a href="hotel.html">L'HÔTEL</a></li>
+				<li><a href="chambre.html">CHAMBRES</a></li>
+				<li><a href="restaurant.html">RÉSTAURANTS</a></li>
+				<li><a href="seminaire.html">SÉMINAIRES</a></li>
+				<li class="show"><a href="reservation.html">RÉSÉRVATION</a></li>
+				<li><a href="contact.html">CONTACT</a></li>
+				<li class="show"><a href="avis.html">AVIS</a></li>
+			</ul>
+		</nav>
+		
+		<div class="container">
+			
+			 <h1>Résérvation</h1>
+			 <h2><i>Reservez en toute securité sur notre site au meilleurs prix garantit</i></h2>
+                   <div class="hotelbook"></div>
+                    
+                    
+                    <div class="formbook">
+
+                        <form>
+                            <div class="form_div">
+                               <!-- HOTEL --> 
+                               <fieldset>
+                                    <h4>Réservation Hôtel</h4><hr>
+                                    <p class="titre_radio"><input type="radio" name="titre" value="M.">M.</p>
+                                    <p class="titre_radio"><input type="radio" name="titre" value="Mme">Mme</p>
+                                    <label for="nom">Nom</label>
+                                    <input type="text" name="nom">
+                                    <label for="prenom">Prénom</label>
+                                    <input type="text" name="prenom">
+                                    <label for="telephone">Téléphone</label>
+                                    <input type="text" name="pays">
+                                    <label for="date">Date d'arrivée</label>
+                                    <input type="date" name="from" required="">
+                                    <label for="date">Date de départ</label>
+                                    <input type="date" name="from" required="">
+                                    <label for="chambres">Type de chambre</label>
+                                    <select name="Categorie">
+                                        <option value="Chambre">Chambre Classique</option>
+                                        <option value="Chambre">Chambre Confort</option>
+                                        <option value="chambre" selected>Chambre Deluxe</option>
+                                        <option value="Chambre">Suite</option>
+                                    </select><br>
+                                    <label for="chambres">Nombre d'adultes</label>
+                                    <select name="Adultes">
+                                        <option value="nbpersonnes">1</option>
+                                        <option value="nbpersonnes">2</option>
+                                        <option value="nbpersonnes">3</option>
+                                        <option value="nbpersonnes">4</option>
+                                    </select><br>
+                                    <label for="chambres">Nombre d'enfants</label>
+                                    <select name="Enfants">
+                                        <option value="nbpersonnes">1</option>
+                                        <option value="nbpersonnes">2</option>
+                                        <option value="nbpersonnes">3</option>
+                                        <option value="nbpersonnes">4</option>
+                                    </select>
+                                    
+                                          <p><em>
+                                        En renseignant vos coordonnées, vous acceptez de recevoir les renseignements de l'hôtel par courrier électronique et vous prenez connaissance de la politique de confidentialité.                                    
+                                    </em></p>
+                                    
+                                    
+                                     <div class="checkboxaccord">
+                                        <input class="checkbox" type="checkbox" style="margin:0;width:25px;"><p style="margin:0;">J'accepte la politique de confidentialité ainsi que les conditions générales</p>
+                                    </div>
+                                     
+                                    
+                                        <button>Valider</button>
+                                    
+                                    
+
+                                </fieldset>
+                               <!-- RESTAURANT --> 
+                                <fieldset>
+                                    <h4>Réservation Restaurant</h4><hr>
+                                    <p class="titre_radio"><input type="radio" name="titre" value="M.">M.</p>
+                                    <p class="titre_radio"><input type="radio" name="titre" value="Mme">Mme</p>
+                                    <label for="nom">Nom</label>
+                                    <input type="text" name="nom">
+                                    <label for="prenom">Prénom</label>
+                                    <input type="text" name="prenom">
+                                    <label for="telephone">Téléphone</label>
+                                    <input type="text" name="pays">
+                                    <label for="date">Date</label>
+                                    <input type="date" id="from" name="from" required="">
+                                    <label for="date">Horaire</label>
+                                    <select name="heures-spa">
+                                        <option value="plage1">9h00-10h00</option>
+                                        <option value="plage2">10h00-11h00</option>
+                                        <option value="plage3">11h00-12h00</option>
+                                        <option value="plage4">12h00-13h00</option>
+                                        <option value="plage5">13h00-14h00</option>
+                                        <option value="plage6">14h00-15h00</option>
+                                        <option value="plage7">15h00-16h00</option>
+                                        <option value="plage8">16h00-17h00</option>
+                                        <option value="plage9">17h00-18h00</option>
+                                        <option value="plage10">18h00-19h00</option>
+                                        <option value="plage11">19h00-20h00</option>
+                                    </select><br>
+                                    <label for="chambres">Nombre de convives</label>
+                                    <select name="Personnes">
+                                        <option value="nbpersonnes">1</option>
+                                        <option value="nbpersonnes">2</option>
+                                        <option value="nbpersonnes">3</option>
+                                        <option value="nbpersonnes">4</option>
+                                        <option value="nbpersonnes">5</option>
+                                        <option value="nbpersonnes">6</option>
+                                        <option value="nbpersonnes">7</option>
+                                        <option value="nbpersonnes">8</option>
+                                    </select>
+                                    
+                                          <p><em>
+                                        En renseignant vos coordonnées, vous acceptez de recevoir les renseignements de l'hôtel par courrier électronique et vous prenez connaissance de la politique de confidentialité.                                    
+                                    </em></p>
+                                    
+                                    
+                                     <div class="checkboxaccord">
+                                        <input class="checkbox" type="checkbox" style="margin:0;width:25px;"><p style="margin:0;">J'accepte la politique de confidentialité ainsi que les conditions générales</p>
+                                    </div>
+                                     
+                                    
+                                        <button>Valider</button>
+                                    
+                                    
+
+                                </fieldset>
+                                <!-- SPA --> 
+                                <fieldset>
+                                    <h4>Réservation Salles de Séminaires</h4><hr>
+                                    <label for="dateSpa">Date:</label>
+                                    <input type="date" id="dateSpa" name="dateSpa" required="">
+                                    <label for="nom">Nom / société</label>
+                                    <input type="text" name="nom">
+                                    <label>Plage Horaire:</label>
+                                    <select name="heures-spa">
+                                        <option value="plage1">9h00-10h00</option>
+                                        <option value="plage2">10h00-11h00</option>
+                                        <option value="plage3">11h00-12h00</option>
+                                        <option value="plage4">12h00-13h00</option>
+                                        <option value="plage5">13h00-14h00</option>
+                                        <option value="plage6">14h00-15h00</option>
+                                        <option value="plage7">15h00-16h00</option>
+                                        <option value="plage8">16h00-17h00</option>
+                                        <option value="plage9">17h00-18h00</option>
+                                        <option value="plage10">18h00-19h00</option>
+                                        <option value="plage11">19h00-20h00</option>
+                                    </select><br>
+                                    
+
+                                    <label>Salles: </label>
+                                    <select name="typeSalle">
+                                        <option value="salle richelieu">Salle Richelieu</option>
+                                        <option value="salle moliere">Salle Molière</option>
+                                        <option value="salle napoleon">Salle Napoléon</option>
+                                      
+                                    </select>
+                                    
+                                    
+                                          <p><em>
+                                        En renseignant vos coordonnées, vous acceptez de recevoir les renseignements de l'hôtel par courrier électronique et vous prenez connaissance de la politique de confidentialité.                                    
+                                    </em></p>
+                                    
+                                    
+                                     <div class="checkboxaccord">
+                                        <input class="checkbox" type="checkbox" style="margin:0;width:25px;"><p style="margin:0;">J'accepte la politique de confidentialité ainsi que les conditions générales</p>
+                                   </div>
+                                     
+                                    
+                                        <button>Valider</button>
+                                    
+                                     
+                                </fieldset>
+                            </div>
+                        </form>
+                    </div>
+		
+		</div>
+					<footer>
+	
+	<!-- <i class="fas fa-wheelchair fa-2x"></i><i class="fas fa-wifi fa-2x"></i><i class="fab fa-expeditedssl fa-2x"></i> -->
+	<!-- <div class="newsletter"> -->
+				
+			<form>
+				<p>Pour recevoir nos offres exclusives :</p>
+				<input type="text" value="" placeholder="Votre adresse mail"/>
+				<button type="submit" onclick="alert('Vous êtes désormais inscrit à la newsletter Paribis')">S'inscrire</button>
+			</form>
+	
+	<div class="contact1">
+		<div class="contact2">
+								<p style="font-weight:bold">4, avenue Montaigne 75008 Paris FRANCE</p>
+								<p style="font-weight:bold">Téléphone +33 (1) 25 27 30 00 - Fax +33 (1) 54 14 30 10</p>
+								<p style="font-weight:bold">contact@hotel-paribis.com</p>
+	
+								<div class="cgv"><p> <a href="recrutement.html">Recrutement</a> | <a href="cgv.html">CGV</a> | <a href="contact.html">Contact</a> | <a href="mention.html">Mentions légales</a> | <a href="plansite.html">Plan du site</a> | <a href="rgpd.html">Politique de confidentialite</a> | <a href="javascript:window.print()"><i class="fas fa-print"></i></a></p><p>© 2019 par Paribis hôtel </p></div>
+		
+	</div>
+		 </div>
+		
+		<div class="reseaux">
+			<a href="#haut"><i class="far fa-arrow-alt-circle-up fa-2x"></i></a>
+			<a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+			<a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter-square fa-2x"></i></a>
+			<a href="https://www.tripadvisor.com/" target="_blank"><i class="fab fa-tripadvisor fa-2x"></i></a>
+			
+			
+		</div>
+		
+</footer>
+	     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		 <script src="js/script.js"></script>
+	 
+	 
+</body>
+</html>
